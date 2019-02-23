@@ -1,3 +1,4 @@
+/* Set formatting for body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -6,75 +7,71 @@ body {
     font-size: 18px;
     margin: 0 auto;
 }
-
+/* Set background color for all elements but article */
 .header, .nav, .section, .aside, .footer {
     background: #ebebeb;
 }
-
+/* Set size for header, nav and footer */
 .header, .nav, .footer {
     padding: 10px;
     margin: 10px 0 10px 0;
 }
-
-/*.footer {
-    margin: -10px;
-}*/
-
+/* set clearfix to clear floats */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-
+/* Set size information for sections of content */
 .section {
     margin-top: 10px;
-    height: 250px;
+    height: 275px;
     padding-top: 10px;
     float: left;
     width: 495px;
     margin-bottom: 10px;
 }
-
+/* Set size information for aside content section */
 .aside {
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
-    height: 250px;
+    height: 275px;
     padding-top: 10px;
     float: left;
     width: 445px;
 }
-
+/* set color and size formatting for article content section */
 .article {
     text-align: center;
     color: #ebebeb;
     background: #777;
-    height: 165px;
+    height: 190px;
     width: 96%;
     margin-left: 10px;
     margin-top: 20px;
     padding-top: 15px;
 }
-
+/* Set formatting and color information for article children */
 .articlesub1, .articlesub2 {
     text-align: center;
     color: #777;
     background: #ebebeb;
-    margin-left: 10px;
+    margin-left: 20px;
     height: 30%;
-    width: 96%;
+    width: 92%;
     float: center;
     padding-top: .5px;
 }
-
+/* Set margin information for article child one */
 .articlesub1 {
-    margin-top: 20px;
+    margin-top: 25px;
 }
-
+/* Set margin information for article child two */
 .articlesub2 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
-
+/* Set font size, weight and color */
 h1, p {
     color: #777;
     background: #ebebeb;
